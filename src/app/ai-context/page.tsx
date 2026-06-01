@@ -48,14 +48,7 @@ export default function FriendlyAIPage() {
   };
 
   return (
-    <div className="relative w-full min-h-screen flex flex-col items-center overflow-x-hidden bg-[#FAFAFA] font-sans">
-      {/* Пульсуючий фоновий елемент */}
-      <motion.div
-        animate={{ opacity: [0.08, 0.15, 0.08] }}
-        transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-        className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(251,146,60,0.15),transparent_50%)] pointer-events-none"
-      />
-
+    <div className="relative w-full min-h-screen flex flex-col items-center overflow-x-hidden bg-transparent font-sans">
       <main className="relative z-10 w-full max-w-5xl mx-auto px-6 pt-24 pb-32 space-y-32">
         {/* --- 1. HERO SECTION --- */}
         <motion.section
