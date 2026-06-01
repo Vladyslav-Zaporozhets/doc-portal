@@ -182,11 +182,12 @@ export default function FranchiseMasterControl() {
             setActiveScene={setActiveSceneId}
             containerRef={containerRef}
           >
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-black mb-6 tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-salina-orange to-salina-pink">
-              <span className="text-5xl md:text-6xl lg:text-7xl font-black mb-6 tracking-tight text-salina-dark">
-                Franchise
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-black tracking-tight">
+              <span className="text-salina-dark">Franchise Master</span>
+              <br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-salina-orange to-salina-pink">
+                Control
               </span>
-              Master Control
             </h1>
             <p className="text-xl md:text-2xl text-slate-500 font-medium max-w-xl leading-relaxed">
               Die ultimative Plattform zur Skalierung und Verwaltung Ihres
